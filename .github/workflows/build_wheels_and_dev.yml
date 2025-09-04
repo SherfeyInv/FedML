@@ -183,7 +183,7 @@ jobs:
           name: artifact
           path: python/dist
 
-      - uses: pypa/gh-action-pypi-publish@v1.8.3
+      - uses: pypa/gh-action-pypi-publish@v1.13.0
         with:
           skip_existing: true
           packages_dir: python/dist
