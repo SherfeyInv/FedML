@@ -22,6 +22,6 @@ packaging
 # web service
 # see https://stackoverflow.com/a/28015308
 requests>=2.3.0
-fastapi>=0.68.0
+fastapi>=0.109.1
 pydantic>=1.8.0
 uvicorn>=0.15.0
