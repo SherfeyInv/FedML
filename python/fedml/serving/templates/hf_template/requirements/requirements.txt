@@ -2,7 +2,7 @@ torch>=2.1.1
 torchvision
 numpy
 accelerate
-transformers[torch]>=4.36.0
+transformers>=4.50.0
 fedml>=0.8.13
 # model related
 sentencepiece
@@ -25,3 +25,5 @@ requests>=2.3.0
 fastapi>=0.68.0
 pydantic>=1.8.0
 uvicorn>=0.15.0
+gevent>=25.4.1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
