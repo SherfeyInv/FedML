@@ -1,4 +1,4 @@
-torch>=2.0.0
+torch>=2.7.1
 torchvision
 numpy
 deepspeed>=0.10.2,<=0.18.9
@@ -18,3 +18,4 @@ zstandard
 ninja
 packaging
 pyyaml
+requests>=2.32.4 # not directly required, pinned by Snyk to avoid a vulnerability
