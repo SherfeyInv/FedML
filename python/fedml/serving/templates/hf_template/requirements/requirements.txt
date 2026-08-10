@@ -2,7 +2,7 @@ torch>=2.1.1
 torchvision
 numpy
 accelerate
-transformers[torch]>=4.36.0
+transformers>=4.48.0
 fedml>=0.8.13
 # model related
 sentencepiece
