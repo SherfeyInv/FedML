@@ -13,3 +13,4 @@ transformers==5.0.0rc3
 --extra-index-url https://pypi.ngc.nvidia.com
 onnx-graphsurgeon
 polygraphy
+protobuf>=4.25.8 # not directly required, pinned by Snyk to avoid a vulnerability
