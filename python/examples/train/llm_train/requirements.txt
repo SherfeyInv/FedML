@@ -12,3 +12,4 @@ fedml[llm]>=0.8.18
 tqdm
 wandb
 pyyaml
+onnx>=1.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
